@@ -1,0 +1,13 @@
+{
+  "name": "my-yarn1-wksp",
+  "packageManager": "yarn@1.22.1",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start": "yarn --cwd backend start",
+    "build": "yarn --cwd frontend build"
+  }
+}
